@@ -1,0 +1,4 @@
+node_moduls
+.idea
+public/products/*
+!public/products/.gitkeep
