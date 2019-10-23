@@ -1,9 +1,7 @@
 
 
 module.exports = {
+    port: 4000,
     secret: 'fwefwefwefwef',
-    db: {
-        name: 'onlinestore',
-        address: 'localhost'
-    }
+    db: "mongodb://localhost/onlinestore"
 };

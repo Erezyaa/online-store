@@ -6,7 +6,7 @@ const authorization = require('./middlewares/authorization');
 const multer = require('multer');
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, 'public');
+        cb(null, 'public/products');
     },
     filename: (req, file, cb) => {
         const fileArr = file.originalname.split('.');
